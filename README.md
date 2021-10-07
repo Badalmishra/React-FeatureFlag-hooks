@@ -12,6 +12,8 @@
 ### Wrapper component <Gaurd> with support of fallback component
 * Renders children only if flag prop is true for current role
 * If fallback prop is provided and flag prop is false for current role, renders fallback
+#### Demo
+[See Demo on Sandbox](https://codesandbox.io/s/react-feature-flags-hooks-64n45?file=/src/Page/Home/ToggleFlags.jsx)
 ### App.js
 ```js
 import { FeatureFlagProvider } from 'featureflag-hooks';
