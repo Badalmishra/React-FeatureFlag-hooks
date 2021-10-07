@@ -1,21 +1,31 @@
 {
   "name": "featureflag-hooks",
   "author": "Badal Mishra",
-  "keywords": ["react", "feature flag", "rbac", "context", "role based access control"],
+  "keywords": [
+    "react",
+    "feature flag",
+    "rbac",
+    "context",
+    "role based access control"
+  ],
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
-      "type": "git",
-      "url": "git@github.com:Badalmishra/React-FeatureFlag-hooks.git"
+    "type": "git",
+    "url": "git@github.com:Badalmishra/React-FeatureFlag-hooks.git"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "featureflag-hooks": "^0.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
