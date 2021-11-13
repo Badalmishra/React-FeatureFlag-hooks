@@ -43,7 +43,7 @@ const FeatureFlagProvider = ({
     /** Get new set of permissions based on view mode */
     try {
       if (validateRole(role, featureFlagsDictionary)) {
-        const newFeatureFlags = featureFlagsDictionary[role];
+        const newFeatureFlags = {...featureFlagsDictionary._common,...featureFlagsDictionary[role]}
 
         setContextValue({ featureFlags: newFeatureFlags, role });
         if (typeof cb === 'function') {

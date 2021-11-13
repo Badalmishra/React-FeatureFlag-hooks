@@ -1,10 +1,13 @@
 export const flagList = {
-    admin:{
+    _common:{
+        story:true,
         awesomebutton:true,
+        message:true
+    },
+    admin:{
         message:false
     },
     user:{
         awesomebutton:false,
-        message:true
     }
 }
